@@ -4,3 +4,5 @@ def sumOfN(n):
     else:
         return n+sumOfN(n-1)
 print(sumOfN(10))
+
+
