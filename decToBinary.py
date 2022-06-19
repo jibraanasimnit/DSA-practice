@@ -1,7 +1,11 @@
 def decToBinary(num):
-    if (num == 0):
+    if (n1 == 0):
         return 1
-    else:
-        return decToBinary((num/2)%2)
+    else: 
+        binary = num%2
+        return binary
+        
+    
+
 
 print(decToBinary(13))
