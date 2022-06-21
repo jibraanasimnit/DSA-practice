@@ -1,11 +1,7 @@
-def decToBinary(num):
-    if (n1 == 0):
-        return 1
-    else: 
-        binary = num%2
-        return binary
-        
+def decToBinary(n):
+    if n == 0 :
+        return 0
+    else:
+        return n%2 + 10*decToBinary(int(n/2))
+print(decToBinary(30))
     
-
-
-print(decToBinary(13))
