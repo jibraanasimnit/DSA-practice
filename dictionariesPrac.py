@@ -1,6 +1,6 @@
 
 
-# myDict = {"name":"Edy", "age": 26,"address":"london"}
+myDict = {"name":"Edy", "age": 26,"address":"london"}
 
 # # def searchDict(dict, value):
 # #     for key in dict:
@@ -19,9 +19,9 @@
 # newDict = myDict.copy()
 # # print(newDict)
 
-# for i in myDict:
-#     newNewDict = {}.fromkeys([1,2,3], myDict[i])
-#     # print(newNewDict)
+for i in myDict:
+    newNewDict = {}.fromkeys([1,2,3], myDict[i])
+    print(newNewDict)
     
 # ranDict = {"name":"jibraan"}
 # (myDict.update(ranDict))
