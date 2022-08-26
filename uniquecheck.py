@@ -5,10 +5,8 @@ myList = [2,3,4,6,7,7,9]
 
 newList = []
 counter = 0
-for i in myList:  #o(n)
-    if i in newList: #o(1)
-        
-        
+for i in myList: 
+    if i in newList: 
         print(i, counter)
         continue
     
