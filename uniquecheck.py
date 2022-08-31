@@ -9,7 +9,6 @@ for i in myList:
     if i in newList: 
         print(i, counter)
         continue
-    
     else:
         newList.append(i)
 if len(newList) == len(myList):
