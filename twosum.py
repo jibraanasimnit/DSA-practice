@@ -1,18 +1,4 @@
 
-
-
-# arr = [2,5,6,7,8]
-# num = 11
-# limit = len(arr)
-# start = 0
-# for i in range(0, limit):
-#     if num > (arr[limit] + arr[start]):
-#         limit = limit - 1
-#     if num < (arr[limit] + arr[start]):
-#         start = start + 1
-#     if num == (arr[limit] + arr[start]):
-#         print(limit, start)
-
 def sumPairs(nums, target):
     
     for i in range(0, len(nums)):

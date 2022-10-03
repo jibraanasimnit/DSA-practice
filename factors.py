@@ -9,4 +9,3 @@ while i*i <= num:
             arr.append(num//i)
     i = i+1
 print(arr)
-        
