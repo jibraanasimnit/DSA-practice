@@ -4,4 +4,4 @@ def powerOf(base, power):
         return 1
     else:
         return  base*powerOf(base, power-1)
-print(powerOf(7, 2))
+print(powerOf(7, -2))
