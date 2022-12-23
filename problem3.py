@@ -16,7 +16,7 @@ while m > 0 and n > 0:
         k-=1
         m -=1
         print(nums1)
-if n > 0:
+if n > 0: 
     nums1[k] = nums2[n-1]
     n -= 1
     k -= 1
